@@ -88,7 +88,7 @@ match time_period:
             case "Selected Airline":
                 airports_seasonal = seasonal_airport_summary(year, "All", month = month_seasonal, carrier_name= airline)
     case "Seasonal":
-        season = st.selectbox("Season", ["Spring", "Summer", "Fall", "Winter"])
+        season = st.selectbox("Season", ["Winter", "Spring", "Summer", "Fall"])
         match airline_selection:
             case "All Airlines":
                 airports_seasonal = seasonal_airport_summary(year, season)
