@@ -1,6 +1,6 @@
 import streamlit as st
 import folium
-from helpers_v2 import *
+from helpers import *
 import folium
 import streamlit.components.v1 as components
 from branca.element import Element
